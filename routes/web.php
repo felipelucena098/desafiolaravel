@@ -15,9 +15,10 @@ use App\Http\Controllers\FactoryController;
 */
 
 Route::get('/', [FactoryController::class, 'welcome']);
-Route::get('/login', [FactoryController::class, 'login']);
-Route::get('/registers', [FactoryController::class, 'registers']);
-Route::post('/register', [FactoryController::class, 'create']);
 Route::get('/contact', [FactoryController::class, 'contact']);
 
 
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
