@@ -18,7 +18,7 @@
 					<i class="fas fa-bars btn-menumobile"></i>
 					<ul>
 						<li><a href="/login">Login</a></li>
-						<li><a href="/register">Cadastrar</a></li>
+						<li><a href="/registers">Cadastrar</a></li>
 						<li><a href="/contact">Contato</a></li>
 					</ul>
 				</div>
