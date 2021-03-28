@@ -16,6 +16,8 @@ use App\Http\Controllers\FactoryController;
 
 Route::get('/', [FactoryController::class, 'welcome']);
 Route::get('/contact', [FactoryController::class, 'contact']);
+Route::get('/cars', [FactoryController::class, 'cars']);
+Route::get('/maintenances', [FactoryController::class, 'maintenances']);
 
 
 

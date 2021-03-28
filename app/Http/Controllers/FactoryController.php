@@ -14,4 +14,12 @@ class FactoryController extends Controller
     public function contact() {
         return view('contact');
     }
+
+    public function cars() {
+        return view('cars');
+    }
+
+    public function maintenances() {
+        return view('maintenances');
+    }
 }
